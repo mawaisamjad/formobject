@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: url("./image/Property-15.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+} 
+.container{
+    width: 300px;
+    margin:auto;
+    border: 5px solid blue;
+    border-radius: 10px;
+    background: rgb(143,155,203);
+    background: linear-gradient(180deg, rgba(143,155,203,1) 1%, rgba(126,132,130,0.49343487394957986) 68%, rgba(13,14,8,1) 100%);
+    text-align: center;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase; 
+}
+label{
+    font-size: 18px;
+    display: block;
+    font-weight: bolder;
+    color: white;
+    padding: 5px 5px;
+}
+input{
+    margin: 2px 5px;
+    font-size: 16px;
+    padding: 3px 50px 3px 5px;
+    outline: none;
+    border: none;
+}
+button{
+    color: white;
+    font-size: 18px;
+    padding: 5px 5px;
+    margin: 10px;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: rgb(143,155,203);
+    background: linear-gradient(180deg, rgba(143,155,203,1) 1%, rgba(126,132,130,0.49343487394957986) 68%, rgba(13,14,8,1) 100%);
+}
